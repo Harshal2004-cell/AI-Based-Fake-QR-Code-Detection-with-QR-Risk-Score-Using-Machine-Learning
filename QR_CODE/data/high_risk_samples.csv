@@ -1,0 +1,6 @@
+data,label,source,timestamp
+http://example.xyz/update.apk,1,auto_high_risk_prediction,2026-09-11 23:58:49
+http://example.top/update.apk,1,auto_high_risk_prediction,2026-09-11 23:59:06
+http://example.xyz?bank=payment&refund=1,1,auto_high_risk_prediction,2026-09-11 23:59:21
+http://example.top?bank=payment&refund=1,1,auto_high_risk_prediction,2026-09-11 23:59:38
+http://example.site?bank=payment&refund=1,1,auto_high_risk_prediction,2026-09-11 23:59:56
