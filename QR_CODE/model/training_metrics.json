@@ -1,0 +1,52 @@
+{
+  "algorithm": "Random Forest Classifier",
+  "n_estimators": 300,
+  "max_depth": 12,
+  "class_weight": "balanced",
+  "dataset_rows": 450,
+  "feature_count": 23,
+  "train_rows": 360,
+  "test_rows": 90,
+  "training_accuracy": 1.0,
+  "test_accuracy": 0.9888888888888889,
+  "confusion_matrix": [
+    [
+      58,
+      1
+    ],
+    [
+      0,
+      31
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 1.0,
+      "recall": 0.9830508474576272,
+      "f1-score": 0.9914529914529915,
+      "support": 59.0
+    },
+    "1": {
+      "precision": 0.96875,
+      "recall": 1.0,
+      "f1-score": 0.9841269841269841,
+      "support": 31.0
+    },
+    "accuracy": 0.9888888888888889,
+    "macro avg": {
+      "precision": 0.984375,
+      "recall": 0.9915254237288136,
+      "f1-score": 0.9877899877899878,
+      "support": 90.0
+    },
+    "weighted avg": {
+      "precision": 0.9892361111111111,
+      "recall": 0.9888888888888889,
+      "f1-score": 0.9889295889295889,
+      "support": 90.0
+    }
+  },
+  "trained_from_dataset": "data/qr_dataset.csv",
+  "base_dataset_rows": 450,
+  "auto_collected_high_risk_samples": 0
+}
