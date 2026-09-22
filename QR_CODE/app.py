@@ -558,9 +558,9 @@ nav_choice = st.sidebar.radio(
 )
 
 st.sidebar.divider()
-st.sidebar.subheader("🎓 Academic Information")
+st.sidebar.markdown("🎓 Academic Information")
 st.sidebar.markdown("**Institution:**\nPriyadarshini College of Engineering, Nagpur")
-st.sidebar.markdown("**Project:**\nAI Smart QR Shield Engine")
+st.sidebar.markdown("**Project:**\nAI-Based Fake QR Code Detection with QR Risk Score Using Machine Learning")
 st.sidebar.markdown("**Batch:** B.Tech Final Year (2026–2027)")
 st.sidebar.caption("System Status: 🟢 100% Operational")
 
@@ -579,7 +579,7 @@ with col_logo:
         
 with col_title:
     st.title("PRIYADARSHINI COLLEGE OF ENGINEERING, NAGPUR")
-    st.subheader("🛡️ AI Smart QR  Quishing Threat Intelligence Engine")
+    st.subheader("🛡️AI-Based Fake QR Code Detection with QR Risk Score Using Machine Learning")
     st.caption("Academic Year 2026–2027 | B.Tech Honors Project")
 
 st.divider()
