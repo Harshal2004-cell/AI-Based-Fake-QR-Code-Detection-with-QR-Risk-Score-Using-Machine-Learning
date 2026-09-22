@@ -570,11 +570,12 @@ st.sidebar.caption("System Status: 🟢 100% Operational")
 col_logo, col_title = st.columns([1, 5])
 
 with col_logo:
-    logo_path = "college_logo.jpg"
+    logo_path = os.path.join(os.path.dirname(_file_), "college_logo.jpg")
+
     if os.path.exists(logo_path):
         st.image(logo_path, width=350)
     else:
-        st.title("🛡️")
+        st.error(f"College logo not found: {logo_path}")
 
 with col_title:
     st.title("PRIYADARSHINI COLLEGE OF ENGINEERING, NAGPUR")
