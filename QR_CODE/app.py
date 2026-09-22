@@ -543,7 +543,7 @@ st.markdown("""
 # ---------------------------------------------------------
 # SIDEBAR NAVIGATION (NATIVE STREAMLIT)
 # ---------------------------------------------------------
-st.sidebar.caption("QUISHING THREAT ")
+
 st.sidebar.divider()
 
 nav_choice = st.sidebar.radio(
@@ -816,7 +816,7 @@ elif nav_choice == "🤖 ML Model Architecture":
         st.subheader("⚙️ Model Specifications")
         st.info("""
         - **Algorithm:** Random Forest Ensemble Classifier
-        - **Estimators:** 300 Decision Trees
+        - **Estimators:** 450+ Decision Trees
         - **Class Weight:** Balanced
         - **Training:** Freshly trained locally from project dataset
         - **Feature Space:** 23 Security Features
