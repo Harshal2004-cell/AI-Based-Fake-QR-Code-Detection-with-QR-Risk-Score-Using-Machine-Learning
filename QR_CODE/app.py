@@ -589,7 +589,7 @@ st.divider()
 # ---------------------------------------------------------
 if nav_choice == "📊 Scanner & Risk Engine":
     st.header("⚡ Real-Time Threat Scanner & Risk Engine")
-    st.caption("Upload a QR image file (Recommended: Up to 120 KB, Formats: JPEG, JPG, PNG, WEBP, BMP, TIFF) or choose a pre-configured test vector.")
+    st.caption("Upload a QR image file (Recommended: Up to 120 KB, Formats: JPEG, JPG, PNG) or choose a pre-configured test vector.")
     
     col_input, col_result = st.columns([1, 1], gap="large")
 
@@ -617,8 +617,8 @@ if nav_choice == "📊 Scanner & Risk Engine":
             )
         else:
             uploaded_file = st.file_uploader(
-                "Upload Image File (Formats: JPEG, JPG, PNG, WEBP, BMP, TIFF | Size: Up to 120 KB):",
-                type=["jpg", "jpeg", "png", "webp", "bmp", "tif", "tiff"]
+                "Upload Image File (Formats: JPEG, JPG, PNG | Size: Up to 120 KB):",
+                type=["jpg", "jpeg", "png"]
             )
 
         selected_file = uploaded_file
